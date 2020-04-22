@@ -1,0 +1,26 @@
+{
+  "name": "custom-hooks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/release/index.js",
+  "scripts": {
+    "start:lesson-1": "parcel lesson-1/index.html --out-dir build/debug",
+    "start:lesson-2": "parcel lesson-2/index.html --out-dir build/debug",
+    "build": "parcel build src/index.html --out-dir build/release --public-url ./",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "keith@keithbingman.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "jest": "^25.4.0",
+    "parcel": "^1.12.4",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
