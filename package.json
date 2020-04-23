@@ -4,8 +4,10 @@
   "description": "",
   "main": "build/release/index.js",
   "scripts": {
+    "start:lesson-0": "parcel lesson-0/index.html --out-dir build/debug",
     "start:lesson-1": "parcel lesson-1/index.html --out-dir build/debug",
     "start:lesson-2": "parcel lesson-2/index.html --out-dir build/debug",
+    "start:lesson-3": "parcel lesson-3/index.html --out-dir build/debug",
     "build": "parcel build src/index.html --out-dir build/release --public-url ./",
     "test": "jest"
   },

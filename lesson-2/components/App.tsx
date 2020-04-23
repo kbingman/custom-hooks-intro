@@ -1,5 +1,5 @@
 import React from 'react';
-import { useMousePosition } from '../hooks/useMousePosition';
+import { useMousePosition } from '../hooks';
 
 export const App = () => {
   const { x, y } = useMousePosition();
