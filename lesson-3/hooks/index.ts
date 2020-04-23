@@ -12,7 +12,7 @@ export const useMousePosition = () => {
   return { x: position.x, y: position.y };
 };
 
-export const useMouseDown = () => {
+export const useMouseDelta = () => {
   const [initialPosition, setInitialPosition] = useState({ x: 0, y: 0 });
   const { x, y } = useMousePosition();
 
