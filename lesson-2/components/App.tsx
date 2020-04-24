@@ -7,8 +7,7 @@ export const App = () => {
   return (
     <div>
       <h1>Lesson 2</h1>
-      <p>x: {x}</p>
-      <p>y: {y}</p>
+      <h2>The mouse position is ({x}, {y})</h2>
     </div>
   );
 };
