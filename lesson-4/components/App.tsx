@@ -1,14 +1,13 @@
 import React from 'react';
-import { useMouseDelta } from '../hooks';
+import { useMousePosition } from '../hooks';
 
 export const App = () => {
-  const { dx, dy } = useMouseDelta();
+  const { x, y } = useMousePosition();
 
   return (
     <div>
-      <h1>Lesson 3</h1>
-      <p>dx: {dx}</p>
-      <p>dy: {dy}</p>
+      <h1>Lesson 4</h1>
+      <h2>The mouse position is ({x}, {y})</h2>
     </div>
   );
 };
